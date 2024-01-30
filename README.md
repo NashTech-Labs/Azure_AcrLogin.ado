@@ -12,7 +12,7 @@ The pipeline requires the following parameters to be defined:
 | serviceConnection | Azure Service Connection for acr registry or azure resource manager in your Azure pipeline | string | | | Required | This helps the module to authenticate with registry or azure cli |
 | addPipelineData  | pipeline data: source branch, build ID| boolean | true | true / false | Optional | helps to inspect error of image built |
 | addBaseImageData | base image data: image name, digest | boolean | true | true / false | Optional |helps in traceability |
-| stepname | |String |  | Optional | |It enables the step name to be defined | 
+| stepname | Step Name |String |  | Optional | |It enables the step name to be defined | 
 
 These parameters provide multiple use case options for the template, enable/disable flags for the utilization of different templates as per the requirements.
 
