@@ -7,8 +7,8 @@ Use this template to log in or log out, start or stop containers, or run a Docke
 The pipeline requires the following parameters to be defined:
 
 
-| Name | type | Default | Required/Optional | Comments |
-| :-------------: | :-------------: | :-------------: | :-------------: | :------------- |
+| Name  | Displayname | type | Default | Values | Opional/Required | Comments |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | serviceConnection | Azure Service Connection for acr registry or azure resource manager in your Azure pipeline | string | | | Required | This helps the module to authenticate with registry or azure cli |
 | addPipelineData  | pipeline data: source branch, build ID| boolean | true | true / false | Optional | helps to inspect error of image built |
 | addBaseImageData | base image data: image name, digest | boolean | true | true / false | Optional |helps in traceability |
